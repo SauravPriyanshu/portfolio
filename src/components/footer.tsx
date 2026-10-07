@@ -5,7 +5,11 @@ import { Container } from "./ui/container";
 import { profile } from "@/data/portfolio";
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = React.useState(2026);
+
+  React.useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className="border-t border-[var(--border)] py-12 mt-24">
