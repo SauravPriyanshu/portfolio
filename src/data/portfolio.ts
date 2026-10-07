@@ -65,7 +65,7 @@ export const profile: Profile = {
   location: "Delhi, India",
   email: "saurav.priyanshu.ug23@nsut.ac.in",
   phone: "+91-9717561754",
-  links: { linkedin: "#TODO", github: "#TODO", resume: "#TODO" }
+  links: { linkedin: "https://www.linkedin.com/in/saurav-priyanshu-14a528288/?isSelfProfile=false", github: "https://github.com/SauravPriyanshu", resume: "https://drive.google.com/file/d/1CRYcM0_zexv7CSHBi-mhTGqIGUEOegIw/view?usp=sharing" }
 };
 
 export const education: Education[] = [
@@ -76,7 +76,7 @@ export const education: Education[] = [
 
 export const experience: Experience[] = [{
   role: "Full-Stack Development Intern", company: "Pingolearn", period: "Feb 2026 – Mar 2026",
-  links: { liveDemo: "#TODO", certificate: "#TODO" },
+  links: { liveDemo: "https://ugc-workflow-1050343791320.asia-south1.run.app/login", certificate: "#TODO" },
   highlights: [
     "Built CreatorOS, a creator operations and scheduling dashboard (React, Node.js, MongoDB).",
     "Engineered JWT authentication and Role-Based Access Control middleware as the sole backend developer, securing the platform for 1,040 production creators.",
@@ -88,7 +88,7 @@ export const experience: Experience[] = [{
 export const projects: Project[] = [
   { slug: "nexaflow", name: "NexaFlow", subtitle: "Real-time project management platform",
     stack: ["React","Node.js","MongoDB","Socket.io","Redis","Groq API","Jest","Supertest","GitHub Actions"],
-    links: { liveDemo: "#TODO", github: "#TODO" },
+    links: { liveDemo: "https://nexa-flow-nu.vercel.app/", github: "#TODO" },
     highlights: [
       "Real-time Kanban collaboration platform with JWT and Google OAuth dual authentication and a 5-tier RBAC model across organization and project scopes.",
       "Socket.io real-time updates across 3 room scopes (user, project, channel).",
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     ] },
   { slug: "quickai", name: "QuickAI", subtitle: "AI content creation platform",
     stack: ["React","Node.js","PostgreSQL","Clerk","Groq SDK","Cloudinary"],
-    links: { liveDemo: "#TODO", github: "#TODO" },
+    links: { liveDemo: "https://quick-ai-six-lemon.vercel.app/", github: "#TODO" },
     highlights: [
       "AI article generation, image editing, and resume analysis (5MB upload validation), with Clerk authentication.",
       "Community feed and dashboard with real-time markdown rendering and Cloudinary image processing.",
